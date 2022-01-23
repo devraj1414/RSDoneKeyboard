@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 "'RSDoneKeyboard is a Library to add a Done Button on TextField and Text Area. Just Change Accessary Type"
                        DESC
 
-  s.homepage         = 'https://github.com/rsingh/RSDoneKeyboard'
+  s.homepage         = 'https://github.com/devraj1414/RSDoneKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rsingh' => 'devraj1414@gmail.com' }
