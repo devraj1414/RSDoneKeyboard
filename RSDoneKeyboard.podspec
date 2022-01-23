@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rsingh' => 'devraj1414@gmail.com' }
-  s.source           = { :git => 'https://github.com/rsingh/RSDoneKeyboard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/devraj1414/RSDoneKeyboard.git', :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '13.0'
