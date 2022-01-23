@@ -1,0 +1,6 @@
+framework module RSDoneKeyboard {
+  umbrella header "RSDoneKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

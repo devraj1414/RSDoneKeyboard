@@ -1,0 +1,16 @@
+PODS:
+  - RSDoneKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - RSDoneKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  RSDoneKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSDoneKeyboard: 12ddd91fd3453d9b2b3f0e5c397c1852eac1795d
+
+PODFILE CHECKSUM: 4f8d2a0124313c8812dee4f4cc9bb95573ef8e11
+
+COCOAPODS: 1.11.2

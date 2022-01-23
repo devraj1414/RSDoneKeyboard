@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CB289FE9401D6649592ECE94380933 /* Pods-RSDoneKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22992DADD32376E2947DE6021DEB2659 /* Pods-RSDoneKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF9F502A7BCC0230331A9ED90AC9190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FCBBE4C279CF586000E0F38 /* RSDoneKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBBE4B279CF586000E0F38 /* RSDoneKeyboard.swift */; };
+		683F88C5B093EF9999635F8EF31BDAB6 /* Pods-RSDoneKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2E42C97D00A55740DB952339C4DC5A /* Pods-RSDoneKeyboard_Tests-dummy.m */; };
+		75B981EC70219665027777AE92D2995D /* Pods-RSDoneKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A905CFE870A31C13EBB2C4170AC3B2B /* Pods-RSDoneKeyboard_Example-dummy.m */; };
+		8416A3C7508EE5B450BF67CE65C8831A /* RSDoneKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB74A72DDC4702F75EBE58B87B2FD21 /* RSDoneKeyboard-dummy.m */; };
+		C1D2B4822734803F850212647D382808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF2334E27FB9D90BB1464D47E04E9B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC1186E3BF7224BA8C43A940B345F267 /* Pods-RSDoneKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E763B78872DF32413E5F93261263309 /* Pods-RSDoneKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1AFDB2844BCBA2EC644C3BA8C7C3A4 /* RSDoneKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36132E151A5BE14924A60554014C3DF8 /* RSDoneKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D8DE80E13FC1AD8560920F6C29C910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A6EA1AAB300BB29C4AE6C55138FCA6;
+			remoteInfo = RSDoneKeyboard;
+		};
+		FDD5493BC50A6A68FE2B7A3DBB6B33E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A31221256E831ACD09D584CA249D7DE;
+			remoteInfo = "Pods-RSDoneKeyboard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CD39624D83842585F04563E68B7BD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CC498B9F13E588677E301F3649BC396 /* Pods-RSDoneKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSDoneKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E3A9CEDD11B0843DB29F1FA9683EAD8 /* Pods-RSDoneKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSDoneKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		14A5AE30DA059DC800F01CF0660FA540 /* RSDoneKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSDoneKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		21DF303C8E23659DEA0EA3AEBF63D8E0 /* Pods-RSDoneKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSDoneKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22992DADD32376E2947DE6021DEB2659 /* Pods-RSDoneKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSDoneKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		3336C7F109F1B7D5EF3859A29671F182 /* RSDoneKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSDoneKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		36132E151A5BE14924A60554014C3DF8 /* RSDoneKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSDoneKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		37EB4727C2F88DDD55F90B816AA3E39A /* RSDoneKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSDoneKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCBBE4B279CF586000E0F38 /* RSDoneKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSDoneKeyboard.swift; sourceTree = "<group>"; };
+		494262F403914A2F65CF7130A6127C8F /* Pods-RSDoneKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSDoneKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		5B3DFA7F169EF326172F670F56FDDB25 /* Pods-RSDoneKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSDoneKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A34DBFFA61B66252CCD09C8E6F7C9D8 /* Pods-RSDoneKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSDoneKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A905CFE870A31C13EBB2C4170AC3B2B /* Pods-RSDoneKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSDoneKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		6E763B78872DF32413E5F93261263309 /* Pods-RSDoneKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSDoneKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8634174CCDF0223FA9A6444C8AE40512 /* Pods-RSDoneKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSDoneKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		88A9269DF4F386810398E240B8BBB8B4 /* Pods-RSDoneKeyboard_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RSDoneKeyboard_Tests"; path = Pods_RSDoneKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EBD682FB79B82AD0D265A518CB4358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8E87860726AF39102C5EFF089159899C /* Pods-RSDoneKeyboard_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RSDoneKeyboard_Example"; path = Pods_RSDoneKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FC38DF10F571BF33BFBCA8885A4C2C /* RSDoneKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSDoneKeyboard-Info.plist"; sourceTree = "<group>"; };
+		9A1CB0616BB52F59343467FFDA5D0438 /* Pods-RSDoneKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSDoneKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0ED9B597D265E2A7C425B91FB99E41A /* RSDoneKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSDoneKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		A7617CD38705A3F4B1CA066D12E39C40 /* RSDoneKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RSDoneKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFC123F0A423DDE2552D06D6559F17AC /* Pods-RSDoneKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSDoneKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC6532FD5D56F2EE45DB9DB771981ABA /* Pods-RSDoneKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSDoneKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		D317C41F558E28E2706680E4C071C0D5 /* Pods-RSDoneKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSDoneKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6B44C904AFDCBEE87EE5A032373E394 /* Pods-RSDoneKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSDoneKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		D726297D84925409497DF6BD0DBEDB69 /* RSDoneKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSDoneKeyboard.modulemap; sourceTree = "<group>"; };
+		D74C6CD3F3C56D1B162E60ECDE29F90B /* Pods-RSDoneKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSDoneKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB2E42C97D00A55740DB952339C4DC5A /* Pods-RSDoneKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSDoneKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		FAB74A72DDC4702F75EBE58B87B2FD21 /* RSDoneKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSDoneKeyboard-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC74ED6FC79DDAB5D31D3A4CCEB9263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2334E27FB9D90BB1464D47E04E9B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E01BF39868E87F84DD8ABADC5116BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D2B4822734803F850212647D382808 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB7B3D8070B08B0B2E7A31E90DF485C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF9F502A7BCC0230331A9ED90AC9190 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCBBE4A279CF560000E0F38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FCBBE4B279CF586000E0F38 /* RSDoneKeyboard.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		440A564318EC7B9458924E2CAF3A15FE /* Pods-RSDoneKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B44C904AFDCBEE87EE5A032373E394 /* Pods-RSDoneKeyboard_Tests.modulemap */,
+				D74C6CD3F3C56D1B162E60ECDE29F90B /* Pods-RSDoneKeyboard_Tests-acknowledgements.markdown */,
+				6A34DBFFA61B66252CCD09C8E6F7C9D8 /* Pods-RSDoneKeyboard_Tests-acknowledgements.plist */,
+				EB2E42C97D00A55740DB952339C4DC5A /* Pods-RSDoneKeyboard_Tests-dummy.m */,
+				494262F403914A2F65CF7130A6127C8F /* Pods-RSDoneKeyboard_Tests-Info.plist */,
+				6E763B78872DF32413E5F93261263309 /* Pods-RSDoneKeyboard_Tests-umbrella.h */,
+				5B3DFA7F169EF326172F670F56FDDB25 /* Pods-RSDoneKeyboard_Tests.debug.xcconfig */,
+				9A1CB0616BB52F59343467FFDA5D0438 /* Pods-RSDoneKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSDoneKeyboard_Tests";
+			path = "Target Support Files/Pods-RSDoneKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		45A20B091E2E0656A680222B51520B3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E328DFB576BC8E4E95BF59204F109D9B /* RSDoneKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C1C5BA02D33D92A818F65C76CA089A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E87860726AF39102C5EFF089159899C /* Pods-RSDoneKeyboard_Example */,
+				88A9269DF4F386810398E240B8BBB8B4 /* Pods-RSDoneKeyboard_Tests */,
+				37EB4727C2F88DDD55F90B816AA3E39A /* RSDoneKeyboard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EED7272177FA2014E8BDF5F4D85986 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D726297D84925409497DF6BD0DBEDB69 /* RSDoneKeyboard.modulemap */,
+				FAB74A72DDC4702F75EBE58B87B2FD21 /* RSDoneKeyboard-dummy.m */,
+				99FC38DF10F571BF33BFBCA8885A4C2C /* RSDoneKeyboard-Info.plist */,
+				14A5AE30DA059DC800F01CF0660FA540 /* RSDoneKeyboard-prefix.pch */,
+				36132E151A5BE14924A60554014C3DF8 /* RSDoneKeyboard-umbrella.h */,
+				A0ED9B597D265E2A7C425B91FB99E41A /* RSDoneKeyboard.debug.xcconfig */,
+				3336C7F109F1B7D5EF3859A29671F182 /* RSDoneKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSDoneKeyboard";
+			sourceTree = "<group>";
+		};
+		CC12A04004EA1F31AAA4AFB19886813C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				89EBD682FB79B82AD0D265A518CB4358 /* LICENSE */,
+				00CD39624D83842585F04563E68B7BD9 /* README.md */,
+				A7617CD38705A3F4B1CA066D12E39C40 /* RSDoneKeyboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				45A20B091E2E0656A680222B51520B3B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8C1C5BA02D33D92A818F65C76CA089A1 /* Products */,
+				D25412FA6D917B32A8530E1DEF10313A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25412FA6D917B32A8530E1DEF10313A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25710A6C16F32FAFCD8A600A6C164A7 /* Pods-RSDoneKeyboard_Example */,
+				440A564318EC7B9458924E2CAF3A15FE /* Pods-RSDoneKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E328DFB576BC8E4E95BF59204F109D9B /* RSDoneKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3FCBBE4A279CF560000E0F38 /* Classes */,
+				CC12A04004EA1F31AAA4AFB19886813C /* Pod */,
+				A2EED7272177FA2014E8BDF5F4D85986 /* Support Files */,
+			);
+			name = RSDoneKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F25710A6C16F32FAFCD8A600A6C164A7 /* Pods-RSDoneKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8634174CCDF0223FA9A6444C8AE40512 /* Pods-RSDoneKeyboard_Example.modulemap */,
+				D317C41F558E28E2706680E4C071C0D5 /* Pods-RSDoneKeyboard_Example-acknowledgements.markdown */,
+				AFC123F0A423DDE2552D06D6559F17AC /* Pods-RSDoneKeyboard_Example-acknowledgements.plist */,
+				6A905CFE870A31C13EBB2C4170AC3B2B /* Pods-RSDoneKeyboard_Example-dummy.m */,
+				0CC498B9F13E588677E301F3649BC396 /* Pods-RSDoneKeyboard_Example-frameworks.sh */,
+				BC6532FD5D56F2EE45DB9DB771981ABA /* Pods-RSDoneKeyboard_Example-Info.plist */,
+				22992DADD32376E2947DE6021DEB2659 /* Pods-RSDoneKeyboard_Example-umbrella.h */,
+				0E3A9CEDD11B0843DB29F1FA9683EAD8 /* Pods-RSDoneKeyboard_Example.debug.xcconfig */,
+				21DF303C8E23659DEA0EA3AEBF63D8E0 /* Pods-RSDoneKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-RSDoneKeyboard_Example";
+			path = "Target Support Files/Pods-RSDoneKeyboard_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CAA0BD22866820183B468486ADF4B4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1AFDB2844BCBA2EC644C3BA8C7C3A4 /* RSDoneKeyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F0C71DE3023E21428840F927888B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB289FE9401D6649592ECE94380933 /* Pods-RSDoneKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CD96F0FE7838CF7D36E3FC21D0B289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1186E3BF7224BA8C43A940B345F267 /* Pods-RSDoneKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03A6EA1AAB300BB29C4AE6C55138FCA6 /* RSDoneKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7945415D1BDA279120A32BADC25BD367 /* Build configuration list for PBXNativeTarget "RSDoneKeyboard" */;
+			buildPhases = (
+				0CAA0BD22866820183B468486ADF4B4A /* Headers */,
+				09BB16FBEAD7A980032EF67FE8CD08FD /* Sources */,
+				1BC74ED6FC79DDAB5D31D3A4CCEB9263 /* Frameworks */,
+				5751DE5498B112F57D19D1D6EFF47E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDoneKeyboard;
+			productName = RSDoneKeyboard;
+			productReference = 37EB4727C2F88DDD55F90B816AA3E39A /* RSDoneKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A31221256E831ACD09D584CA249D7DE /* Pods-RSDoneKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC07D821D500D1E8DC71197AFF55F46 /* Build configuration list for PBXNativeTarget "Pods-RSDoneKeyboard_Example" */;
+			buildPhases = (
+				2B2F0C71DE3023E21428840F927888B4 /* Headers */,
+				38EE7E672104C1124288BAB2387E0300 /* Sources */,
+				AEB7B3D8070B08B0B2E7A31E90DF485C /* Frameworks */,
+				E41F5D5E05AAA84D0DDFB4EC147F1A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E1A203FC67DAD3ADB359948621E2EE /* PBXTargetDependency */,
+			);
+			name = "Pods-RSDoneKeyboard_Example";
+			productName = Pods_RSDoneKeyboard_Example;
+			productReference = 8E87860726AF39102C5EFF089159899C /* Pods-RSDoneKeyboard_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6BE89C326AA70EE8BE93F103CDCC08F /* Pods-RSDoneKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F63CED7257578D84ECD016B519F063B /* Build configuration list for PBXNativeTarget "Pods-RSDoneKeyboard_Tests" */;
+			buildPhases = (
+				72CD96F0FE7838CF7D36E3FC21D0B289 /* Headers */,
+				3D43270EA5C7F66E1383E4793C5DBE00 /* Sources */,
+				7E01BF39868E87F84DD8ABADC5116BA7 /* Frameworks */,
+				DD80373A168E74E90621F6119C074EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939494141A03D1ED0C050C423D7B60B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSDoneKeyboard_Tests";
+			productName = Pods_RSDoneKeyboard_Tests;
+			productReference = 88A9269DF4F386810398E240B8BBB8B4 /* Pods-RSDoneKeyboard_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					03A6EA1AAB300BB29C4AE6C55138FCA6 = {
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C1C5BA02D33D92A818F65C76CA089A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A31221256E831ACD09D584CA249D7DE /* Pods-RSDoneKeyboard_Example */,
+				F6BE89C326AA70EE8BE93F103CDCC08F /* Pods-RSDoneKeyboard_Tests */,
+				03A6EA1AAB300BB29C4AE6C55138FCA6 /* RSDoneKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5751DE5498B112F57D19D1D6EFF47E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD80373A168E74E90621F6119C074EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41F5D5E05AAA84D0DDFB4EC147F1A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BB16FBEAD7A980032EF67FE8CD08FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8416A3C7508EE5B450BF67CE65C8831A /* RSDoneKeyboard-dummy.m in Sources */,
+				3FCBBE4C279CF586000E0F38 /* RSDoneKeyboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE7E672104C1124288BAB2387E0300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B981EC70219665027777AE92D2995D /* Pods-RSDoneKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D43270EA5C7F66E1383E4793C5DBE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683F88C5B093EF9999635F8EF31BDAB6 /* Pods-RSDoneKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		939494141A03D1ED0C050C423D7B60B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSDoneKeyboard_Example";
+			target = 8A31221256E831ACD09D584CA249D7DE /* Pods-RSDoneKeyboard_Example */;
+			targetProxy = FDD5493BC50A6A68FE2B7A3DBB6B33E1 /* PBXContainerItemProxy */;
+		};
+		D3E1A203FC67DAD3ADB359948621E2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSDoneKeyboard;
+			target = 03A6EA1AAB300BB29C4AE6C55138FCA6 /* RSDoneKeyboard */;
+			targetProxy = B0D8DE80E13FC1AD8560920F6C29C910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA7C6043E6DD2542257418ED37EA374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3A9CEDD11B0843DB29F1FA9683EAD8 /* Pods-RSDoneKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F95A83594B1951F881CCE067CA0E432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DF303C8E23659DEA0EA3AEBF63D8E0 /* Pods-RSDoneKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55ED644FDCD9E662811F7F7451905E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1CB0616BB52F59343467FFDA5D0438 /* Pods-RSDoneKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BED6B911F132FF4A748C07B145CC1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ED9B597D265E2A7C425B91FB99E41A /* RSDoneKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = RSDoneKeyboard;
+				PRODUCT_NAME = RSDoneKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CDD500BE0041430B7A8D1C1648B086A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3DFA7F169EF326172F670F56FDDB25 /* Pods-RSDoneKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ED227BD41F608019DCBB4BE5DD1F605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3336C7F109F1B7D5EF3859A29671F182 /* RSDoneKeyboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSDoneKeyboard/RSDoneKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = RSDoneKeyboard;
+				PRODUCT_NAME = RSDoneKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC07D821D500D1E8DC71197AFF55F46 /* Build configuration list for PBXNativeTarget "Pods-RSDoneKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA7C6043E6DD2542257418ED37EA374 /* Debug */,
+				2F95A83594B1951F881CCE067CA0E432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F63CED7257578D84ECD016B519F063B /* Build configuration list for PBXNativeTarget "Pods-RSDoneKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDD500BE0041430B7A8D1C1648B086A /* Debug */,
+				55ED644FDCD9E662811F7F7451905E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7945415D1BDA279120A32BADC25BD367 /* Build configuration list for PBXNativeTarget "RSDoneKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BED6B911F132FF4A748C07B145CC1C1 /* Debug */,
+				ED227BD41F608019DCBB4BE5DD1F605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

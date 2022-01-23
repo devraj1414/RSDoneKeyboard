@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4289640ECFF950EF6AE42D1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4289640ECFF950EF6AE42D1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		47C737C02E71F08F90EB5BBF /* Pods-RSDoneKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDoneKeyboard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E59352BD48985A5C69FCC4C /* Pods_RSDoneKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSDoneKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RSDoneKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDoneKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		627E0846FDA31E45DAA4E584 /* Pods-RSDoneKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDoneKeyboard_Example.release.xcconfig"; path = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		92CE5F6E184A8DFDCCD737B4 /* Pods_RSDoneKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSDoneKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9472CDC0E2AE2CE00E1E7C3E /* Pods-RSDoneKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDoneKeyboard_Example.debug.xcconfig"; path = "Target Support Files/Pods-RSDoneKeyboard_Example/Pods-RSDoneKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D444B6364A71BAB233AA5EFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D444B6364A71BAB233AA5EFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DA6E665187FE236B373864A0 /* Pods-RSDoneKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDoneKeyboard_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSDoneKeyboard_Tests/Pods-RSDoneKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9AA0988E8B39712069091D2 /* RSDoneKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RSDoneKeyboard.podspec; path = ../RSDoneKeyboard.podspec; sourceTree = "<group>"; };
+		E9AA0988E8B39712069091D2 /* RSDoneKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSDoneKeyboard.podspec; path = ../RSDoneKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				47C737C02E71F08F90EB5BBF /* Pods-RSDoneKeyboard_Tests.debug.xcconfig */,
 				DA6E665187FE236B373864A0 /* Pods-RSDoneKeyboard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
